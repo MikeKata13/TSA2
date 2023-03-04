@@ -18,4 +18,5 @@ data<-data.frame(Quarter=dates,Sales=data$Sales)
 quarters<-data$Quarter
 sales<-data$sales
 
-plot(Quarter,Sales)
+plot(data$Quarter,data$Sales)
+print(quarters,sales)
