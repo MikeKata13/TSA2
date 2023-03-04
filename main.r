@@ -20,3 +20,4 @@ sales<-data$sales
 
 plot(data$Quarter,data$Sales)
 print(quarters,sales)
+print("This is a test")
